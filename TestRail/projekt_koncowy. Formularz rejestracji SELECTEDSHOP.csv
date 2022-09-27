@@ -1,0 +1,135 @@
+﻿"ID","Title","Created By","Created On","Estimate","Expected Result","Preconditions","Priority","Section","Section Depth","Section Hierarchy","Steps","Steps","Suite","Suite ID","Template","Type","Updated By","Updated On"
+"C1","Formularz logowania. happy path","michal cichy","9/26/2022 5:46 PM","","użytkownik jest zalogowany i otrzymuje komunikat ""Dziękujemy za zalogowanie!""
+","Zainstalowany system Windows 7 lub wyższy 
+Przeglądarka internetowa Chrome/Brave/Mozilla
+Zarejestrowany użytkownik na stronie https://selectshop.pl/account 
+w sekcji Logowanie
+","Medium","Test Cases","0","Test Cases","","1. kliknij pole adres e-mail. 
+2. wprowadź prawidłowy adres email. 
+3. kliknij pole hasło. 
+4. wprowadź prawidłowe hasło przypisane do konta email z punktu 2. 
+5. kliknij przycisk ""zaloguj się""","Master","S1","Test Case (Text)","Functional","michal cichy","9/27/2022 4:25 PM"
+"C2","Formularz logowania. niepoprawne hasło","michal cichy","9/27/2022 9:23 AM","","Użytkownik nie został zalogowany. Otrzymuje komunikat ""Podany email albo hasło są błędne""","Zainstalowany system Windows 7 lub wyższy 
+
+Przeglądarka internetowa Chrome/Brave/Mozilla
+
+Zarejestrowany użytkownik na stronie https://selectshop.pl/account","Medium","Test Cases","0","Test Cases","","1. kliknij pole adres e-mail. 
+2. wprowadź prawidłowy adres email. 
+3. kliknij pole hasło. 
+4. wprowadź hasło niezgodne z przypisanym do konta email z punktu 2. 
+5. kliknij przycisk ""zaloguj się""","Master","S1","Test Case (Text)","Functional","michal cichy","9/27/2022 12:59 PM"
+"C3","Formularz logowania. brak danych","michal cichy","9/27/2022 9:24 AM","","Użytkownik nie zostaje zalogowany. Ootrzymuje komunikat ""Adres email jest wymagany"" oraz ""Proszę podać hasło""
+","Zainstalowany system Windows 7 lub wyższy
+
+Przeglądarka internetowa Chrome/Brave/Mozilla
+
+Zarejestrowany użytkownik na stronie https://selectshop.pl/account","Medium","Test Cases","0","Test Cases","","1. Pozostaw puste pola adres e-mail i hasło 
+2. kliknij przycisk ""zaloguj się""","Master","S1","Test Case (Text)","Functional","michal cichy","9/27/2022 1:00 PM"
+"C5","Formularz logowania. znaki specjalne w polu e-mail","michal cichy","9/27/2022 9:25 AM","","Użytkownik nie zostaje zalogowany. Otrzymuje komunikat ""Podany email albo hasło są błędne""","Zainstalowany system Windows 7 lub wyższy
+
+Przeglądarka internetowa Chrome/Brave/Mozilla
+
+Zarejestrowany użytkownik na stronie https://selectshop.pl/account","Medium","Test Cases","0","Test Cases","","1. kliknij pole adres e-mail.
+2. wprowadź adres email zawierający znak specjalny #.
+3. kliknij pole hasło.
+4. wprowadź hasło zgodne z przypisanym do konta email w pkt.2 
+5. kliknij przycisk ""zaloguj się""","Master","S1","Test Case (Text)","Functional","michal cichy","9/27/2022 1:00 PM"
+"C7","Formularz logowania. spacja w polu hasło","michal cichy","9/27/2022 9:29 AM","","Użytkownik nie zostaje zalogowany. Otrzymuje komunikat ""Podany email albo hasło są błędne""","Zainstalowany system Windows 7 lub wyższy
+
+Przeglądarka internetowa Chrome/Brave/Mozilla
+
+Zarejestrowany użytkownik na stronie https://selectshop.pl/account","Medium","Test Cases","0","Test Cases","","1. kliknij pole adres e-mail. 
+2. wprowadź prawidłowy adres email. 
+3. kliknij pole hasło. 
+4. wprowadź spację 
+5. kliknij przycisk ""zaloguj się""","Master","S1","Test Case (Text)","Functional","michal cichy","9/27/2022 1:00 PM"
+"C8","Formularz rejestracji. happy path","michal cichy","9/27/2022 11:37 AM","","Użytkownik otrzymuje komunikat o przesłaniu linku aktywacyjnego konto na adres email. Konto zostało utworzone.","Zainstalowany system Windows 7 lub wyższy
+
+Przeglądarka internetowa Chrome/Brave/Mozilla
+
+Zarejestrowany użytkownik na stronie https://selectshop.pl/account
+
+w sekcji rejestracja 
+
+
+","Medium","Test Cases","0","Test Cases","","1. kliknij pole ""nazwa uzytkownika""
+2. Wprowadź poprawna nazwę 
+3. kliknij pole adres e-mail 
+4. wprowadź poprawny adres email
+4. kliknij pole hasło 
+5. wprowadz poprawne hasło
+6. kliknij pole powtórz haslo
+7. wprowadz hasło użyte w kroku 5
+8. odhacz checkbox dot. RODO i Regulaminu
+9. kliknij Stwórz konto
+
+","Master","S1","Test Case (Text)","Functional","michal cichy","9/27/2022 4:25 PM"
+"C9","Formularz rejestracji. znak specjany w adresie email","michal cichy","9/27/2022 11:51 AM","","Użytkownik otrzymuje komunikat o przesłaniu linku aktywacyjnego konto na adres email. Konto zostało utworzone.","Zainstalowany system Windows 7 lub wyższy 
+
+Przeglądarka internetowa Chrome/Brave/Mozilla
+
+Zarejestrowany użytkownik na stronie https://selectshop.pl/account
+w sekcji rejestracja ","Medium","Test Cases","0","Test Cases","","1. kliknij pole ""nazwa uzytkownika""
+2. Wprowadź nazwę 
+3. kliknij pole adres e-mail 
+4. wprowadź email ze znakiem specjalnym #
+4. kliknij pole hasło 
+5. wprowadz hasło
+6. kliknij pole powtórz haslo
+7. wprowadz hasło użyte w kroku 5
+8. odhacz checkboxy dot. Regulaminu i RODO
+9. kliknij Stwórz konto","Master","S1","Test Case (Text)","Functional","michal cichy","9/27/2022 4:26 PM"
+"C10","Formularz rejestracji. znaki specjalne w nazwie użytkownika","michal cichy","9/27/2022 12:01 PM","","Użytkownik otrzymuje komunikat ""Akceptowane znaki: A-z, 0-9, _, -"" Konto nie zostało utworzone.","Zainstalowany system Windows 7 lub wyższy 
+Przeglądarka internetowa Chrome/Brave/Mozilla
+Zarejestrowany użytkownik na stronie https://selectshop.pl/account
+w sekcji rejestracja ","Medium","Test Cases","0","Test Cases","","1. kliknij pole ""nazwa uzytkownika""
+2. Wprowadź nazwę ze znakiem specjalnym
+3. kliknij pole adres e-mail 
+4. wprowadź poprawny adres email
+4. kliknij pole hasło 
+5. wprowadz poprawne hasło
+6. kliknij pole powtórz haslo
+7. wprowadz hasło użyte w kroku 5
+8. odhacz checkboxy dot. Regulaminu i RODO
+9. kliknij Stwórz konto","Master","S1","Test Case (Text)","Functional","michal cichy","9/27/2022 1:01 PM"
+"C12","Formularz rejestracji. hasła różniące się","michal cichy","9/27/2022 12:01 PM","","Użytkownik otrzymuje komunikat ""Musisz podać przynajmniej 6 znaków"". Konto nie zostało utworzone.","Zainstalowany system Windows 7 lub wyższy 
+Przeglądarka internetowa Chrome/Brave/Mozilla
+Zarejestrowany użytkownik na stronie https://selectshop.pl/account
+w sekcji rejestracja ","Medium","Test Cases","0","Test Cases","","1. kliknij pole ""nazwa uzytkownika""
+2. Wprowadź poprawna nazwę 
+3. kliknij pole adres e-mail 
+4. wprowadź poprawny adres email
+4. kliknij pole hasło 
+5. wprowadz hasło skłądające sie z 6 znaków
+6. kliknij pole powtórz haslo
+7. wprowadz hasło krótsze niż 6 znaków
+8. odhacz checkbox dot. RODO i Regulaminu","Master","S1","Test Case (Text)","Functional","michal cichy","9/27/2022 1:01 PM"
+"C13","Formularz rejestracji. checkbox Regulamin","michal cichy","9/27/2022 12:01 PM","","Użytkownik otrzymuje komunikat ""Proszę zaakceptować regulamin strony""
+","Zainstalowany system Windows 7 lub wyższy
+Przeglądarka internetowa Chrome/Brave/Mozilla
+Zarejestrowany użytkownik na stronie https://selectshop.pl/account
+w sekcji rejestracja ","Medium","Test Cases","0","Test Cases","","1. kliknij pole ""nazwa uzytkownika""
+2. Wprowadź poprawna nazwę 
+3. kliknij pole adres e-mail 
+4. wprowadź poprawny adres email
+4. kliknij pole hasło 
+5. wprowadz poprawne hasło
+6. kliknij pole powtórz haslo
+7. wprowadz hasło użyte w kroku 5
+8. odhacz checkbox dot. Regulaminu
+9. kliknij Stwórz konto
+
+","Master","S1","Test Case (Text)","Functional","michal cichy","9/27/2022 1:01 PM"
+"C14","Formularz rejestracji. checkbox RODO","michal cichy","9/27/2022 12:01 PM","","Użytkownik otrzymuje komunikat ""Proszę zaakceptować regulamin strony""","Zainstalowany system Windows 7 lub wyższy 
+Przeglądarka internetowa Chrome/Brave/Mozilla
+Zarejestrowany użytkownik na stronie https://selectshop.pl/account
+w sekcji rejestracja ","Medium","Test Cases","0","Test Cases","","1. kliknij pole ""nazwa uzytkownika""
+2. Wprowadź poprawna nazwę 
+3. kliknij pole adres e-mail 
+4. wprowadź poprawny adres email
+4. kliknij pole hasło 
+5. wprowadz poprawne hasło
+6. kliknij pole powtórz haslo
+7. wprowadz hasło użyte w kroku 5
+8. odhacz checkbox dot. RODO
+9. kliknij Stwórz konto","Master","S1","Test Case (Text)","Functional","michal cichy","9/27/2022 1:02 PM"
