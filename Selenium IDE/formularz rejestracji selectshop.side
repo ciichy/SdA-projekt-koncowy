@@ -1,0 +1,306 @@
+{
+  "id": "96f9515a-76f6-419c-b002-b354ee68ee9e",
+  "version": "2.0",
+  "name": "formularz rejestracji selectshop",
+  "url": "https://selectshop.pl",
+  "tests": [{
+    "id": "42112f80-5e2c-4b28-9994-776c81abffc9",
+    "name": "walidacja pola email",
+    "commands": [{
+      "id": "2aaadbe1-0b09-402e-9b6f-fabcebcc9675",
+      "comment": "",
+      "command": "open",
+      "target": "/account",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e32e215d-202a-4a49-8d30-494c61cb2586",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x727",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "458767e7-3a1e-42a7-bb36-6d9c275d3f04",
+      "comment": "",
+      "command": "click",
+      "target": "id=cr_username",
+      "targets": [
+        ["id=cr_username", "id"],
+        ["name=account[username]", "name"],
+        ["css=#cr_username", "css:finder"],
+        ["xpath=//input[@id='cr_username']", "xpath:attributes"],
+        ["xpath=//div[2]/div/form/fieldset/div/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b69edf7-17aa-47d6-ac4d-14240f891ab4",
+      "comment": "",
+      "command": "type",
+      "target": "id=cr_username",
+      "targets": [
+        ["id=cr_username", "id"],
+        ["name=account[username]", "name"],
+        ["css=#cr_username", "css:finder"],
+        ["xpath=//input[@id='cr_username']", "xpath:attributes"],
+        ["xpath=//div[2]/div/form/fieldset/div/p/input", "xpath:position"]
+      ],
+      "value": "wesolyromek%@asd.pl"
+    }, {
+      "id": "dc112ac5-fd9b-482c-945b-bf327a5356b8",
+      "comment": "",
+      "command": "click",
+      "target": "id=cr_username",
+      "targets": [
+        ["id=cr_username", "id"],
+        ["name=account[username]", "name"],
+        ["css=#cr_username", "css:finder"],
+        ["xpath=//input[@id='cr_username']", "xpath:attributes"],
+        ["xpath=//div[2]/div/form/fieldset/div/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58dd1c13-e3b7-4a3f-85c3-8152278131c6",
+      "comment": "",
+      "command": "click",
+      "target": "id=cr_username",
+      "targets": [
+        ["id=cr_username", "id"],
+        ["name=account[username]", "name"],
+        ["css=#cr_username", "css:finder"],
+        ["xpath=//input[@id='cr_username']", "xpath:attributes"],
+        ["xpath=//div[2]/div/form/fieldset/div/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a27d751-868e-4e33-abb2-f344da3174dd",
+      "comment": "",
+      "command": "click",
+      "target": "id=cr_username",
+      "targets": [
+        ["id=cr_username", "id"],
+        ["name=account[username]", "name"],
+        ["css=#cr_username", "css:finder"],
+        ["xpath=//input[@id='cr_username']", "xpath:attributes"],
+        ["xpath=//div[2]/div/form/fieldset/div/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "822490f4-d953-40ec-97b5-de9f08d69e28",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=cr_username",
+      "targets": [
+        ["id=cr_username", "id"],
+        ["name=account[username]", "name"],
+        ["css=#cr_username", "css:finder"],
+        ["xpath=//input[@id='cr_username']", "xpath:attributes"],
+        ["xpath=//div[2]/div/form/fieldset/div/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54d4192f-729c-446e-9065-d3dba2c4e373",
+      "comment": "",
+      "command": "click",
+      "target": "id=cr_username",
+      "targets": [
+        ["id=cr_username", "id"],
+        ["name=account[username]", "name"],
+        ["css=#cr_username", "css:finder"],
+        ["xpath=//input[@id='cr_username']", "xpath:attributes"],
+        ["xpath=//div[2]/div/form/fieldset/div/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3c4e4ba-a1e6-4432-96eb-13b5206ed504",
+      "comment": "",
+      "command": "click",
+      "target": "id=cr_email",
+      "targets": [
+        ["id=cr_email", "id"],
+        ["name=account[email]", "name"],
+        ["css=#cr_email", "css:finder"],
+        ["xpath=//input[@id='cr_email']", "xpath:attributes"],
+        ["xpath=//div[2]/div/form/fieldset/div/p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1302a01-5955-4854-bb20-5e45066168b1",
+      "comment": "",
+      "command": "type",
+      "target": "id=cr_email",
+      "targets": [
+        ["id=cr_email", "id"],
+        ["name=account[email]", "name"],
+        ["css=#cr_email", "css:finder"],
+        ["xpath=//input[@id='cr_email']", "xpath:attributes"],
+        ["xpath=//div[2]/div/form/fieldset/div/p[2]/input", "xpath:position"]
+      ],
+      "value": "wesolyromek%@asd.pl"
+    }, {
+      "id": "0a82615a-81d5-4d48-a787-411b62e4bd25",
+      "comment": "",
+      "command": "click",
+      "target": "id=cr_username",
+      "targets": [
+        ["id=cr_username", "id"],
+        ["name=account[username]", "name"],
+        ["css=#cr_username", "css:finder"],
+        ["xpath=//input[@id='cr_username']", "xpath:attributes"],
+        ["xpath=//div[2]/div/form/fieldset/div/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fb7076c-017c-4768-a329-cf2f4f2335bf",
+      "comment": "",
+      "command": "type",
+      "target": "id=cr_username",
+      "targets": [
+        ["id=cr_username", "id"],
+        ["name=account[username]", "name"],
+        ["css=#cr_username", "css:finder"],
+        ["xpath=//input[@id='cr_username']", "xpath:attributes"],
+        ["xpath=//div[2]/div/form/fieldset/div/p/input", "xpath:position"]
+      ],
+      "value": "wesolyromek"
+    }, {
+      "id": "c61e974e-451c-48bc-a32f-aa12da16a5f7",
+      "comment": "",
+      "command": "click",
+      "target": "id=cr_password",
+      "targets": [
+        ["id=cr_password", "id"],
+        ["name=account[password]", "name"],
+        ["css=#cr_password", "css:finder"],
+        ["xpath=//input[@id='cr_password']", "xpath:attributes"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b67116a4-0036-441f-a178-a78c51195f0e",
+      "comment": "",
+      "command": "type",
+      "target": "id=cr_password",
+      "targets": [
+        ["id=cr_password", "id"],
+        ["name=account[password]", "name"],
+        ["css=#cr_password", "css:finder"],
+        ["xpath=//input[@id='cr_password']", "xpath:attributes"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": "asdasd123"
+    }, {
+      "id": "d1947cd8-95f9-437d-9649-a3da11572c34",
+      "comment": "",
+      "command": "click",
+      "target": "id=cr_rpassword",
+      "targets": [
+        ["id=cr_rpassword", "id"],
+        ["name=account[repeat-password]", "name"],
+        ["css=#cr_rpassword", "css:finder"],
+        ["xpath=//input[@id='cr_rpassword']", "xpath:attributes"],
+        ["xpath=//p[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f05f6e3-5435-48e6-b65c-8e1902b5b7b8",
+      "comment": "",
+      "command": "type",
+      "target": "id=cr_rpassword",
+      "targets": [
+        ["id=cr_rpassword", "id"],
+        ["name=account[repeat-password]", "name"],
+        ["css=#cr_rpassword", "css:finder"],
+        ["xpath=//input[@id='cr_rpassword']", "xpath:attributes"],
+        ["xpath=//p[4]/input", "xpath:position"]
+      ],
+      "value": "asdasd123"
+    }, {
+      "id": "f2b5c7ee-8d2a-43e2-bd6d-5d1079bd1f38",
+      "comment": "",
+      "command": "click",
+      "target": "css=.column50:nth-child(2) .common-margin",
+      "targets": [
+        ["css=.column50:nth-child(2) .common-margin", "css:finder"],
+        ["xpath=//div[2]/div/form/fieldset/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f84ceb72-fb60-472e-9d26-76b13cb4d1c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.column50:nth-child(2) .common-margin",
+      "targets": [
+        ["css=.column50:nth-child(2) .common-margin", "css:finder"],
+        ["xpath=//div[2]/div/form/fieldset/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30d85a68-a2a7-4578-affd-f55839a3239d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.terms:nth-child(6) label",
+      "targets": [
+        ["css=.terms:nth-child(6) label", "css:finder"],
+        ["xpath=//div[2]/p/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Zapoznałem się i akceptuję Regulamin i Politykę Prywatności selectshop.pl. Wyrażam zgodę na wykorzystanie i przetwarzanie moich danych osobowych w celu realizacji zamówienia (zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) z dnia 27 kwietnia 2016 r. nr 2016/679).')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea7e7503-ac68-4689-8930-ccfd11a9a5bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cut-terms label",
+      "targets": [
+        ["css=.cut-terms label", "css:finder"],
+        ["xpath=//div[3]/p/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Zgodnie z art. 13 ust. 1 i ust. 2 rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (RODO), informujemy, iż Przetwarzanie Pani/Pana danych osobowych będzie się odbywać na podstawie art. 6 RODO i w celu marketingowym, jak również w celach: kontaktowania się z Klientem w sprawie zamówień, obsługi konta Klienta, w tym procesu rejestracji, logowania do konta, będącego podstroną sklepu w celu kontrolowania składanych przez Klienta zamówień, zawarcia umowy sprzedaży produktów dostępnych w ramach selesctshop.pl, księgowych, organizowania dostawy produktów, - rozpatrywania reklamacji, obsługi zwrotu zakupionego towaru, innych czynności związanych z zawarciem lub wykonywaniem umów sprzedaży. Administratorem bazy danych osobowych przekazywanych przez Klientów, w związku z zakupami w selectshop.pl jest Przedsiębiorstwo Wielobranżowe „RAPU” Robert Zapora z siedzibą w Rzeszowie, ul. Boya-Żeleńśkiego 11, 35 – 105 Rzeszów posiadające numer NIP: 9222181461 oraz REGON: 950325689. Podanie danych osobowych na stronie internetowej selectshop.pl jest dobrowolne. Podstawą przetwarzania danych osobowych jest zgoda samych Klientów, jak również upoważnienie do przetwarzania danych niezbędnych w celach związanych z działalnością selectshop.pl, w tym w celu zawierania, realizacji i rozliczenia umów sprzedaży w ramach obsługi transakcji sprzedaży towarów, a także w celach ich archiwizacji. Pani/Pana dane osobowe będą przechowywane przez okres 10 lat tj. do czasu upływu terminu przedawnienia ewentualnych roszczeń cywilnych. Posiada Pani/Pan prawo dostępu do treści swoich danych osobowych, prawo do ich sprostowania, usunięcia, jak i również prawo do ograniczenia ich przetwarzania/ prawo do cofnięcia zgody, prawo do przenoszenia danych, prawo do wniesienia sprzeciwu wobec przetwarzania Pani/Pana danych osobowych. Przysługuje Pani/Panu prawo wniesienia skargi do organu nadzorczego, jeśli Pani/Pana zdaniem, przetwarzanie danych osobowych Pani/Pana – narusza przepisy unijnego rozporządzenia RODO. W przypadku pytań dotyczących przetwarzania danych osobowych prosimy o kontakt z Inspektorem Ochrony Danych, formularz kontaktowy dostępny na stronie selectshop.pl')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f45d7dea-c4da-4542-a39e-9b3d8588534e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.register",
+      "targets": [
+        ["css=.register", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//p[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Stwórz konto')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dac68527-88e2-415f-88d6-fea90e742960",
+      "comment": "",
+      "command": "click",
+      "target": "css=.message",
+      "targets": [
+        ["css=.message", "css:finder"],
+        ["xpath=//div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Powinieneś otrzymać link aktywacyjny w mailu wysłanym do Twojej skrzynki pocztowej. Prosimy o kliknięcie go co umożliwi używanie swojego nowo założonego konta.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eaf4b9da-10ba-44f3-a444-e089f85c7c2f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.newsletter",
+      "targets": [
+        ["css=.newsletter", "css:finder"],
+        ["xpath=//form[@action='/newsletter']", "xpath:attributes"],
+        ["xpath=//footer/form", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "054bc26e-2f81-409b-95e0-4e93c2e00c52",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["42112f80-5e2c-4b28-9994-776c81abffc9"]
+  }],
+  "urls": ["https://selectshop.pl/"],
+  "plugins": []
+}
