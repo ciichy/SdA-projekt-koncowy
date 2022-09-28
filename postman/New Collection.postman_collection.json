@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "77b86e94-60ff-48b4-91dd-7db1d3f6932a",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22119648"
+	},
+	"item": [
+		{
+			"name": "SELECTSHOP",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://selectshop.pl/recommend?section=220er",
+					"protocol": "https",
+					"host": [
+						"selectshop",
+						"pl"
+					],
+					"path": [
+						"recommend"
+					],
+					"query": [
+						{
+							"key": "section",
+							"value": "220er"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
