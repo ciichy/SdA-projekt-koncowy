@@ -1,0 +1,10 @@
+Feature: logowanie do konta uzytkownika
+Scenario: użytkownik może zalogować się na sklepie podając prawidlowe dane
+
+Given użytkownik jest na stronie logowania http://www.selectshop.pl/account
+     And posiada zarejestrowane konto
+When użytkownik wypełnia pole "adres e-mail"
+     And wypełnia "hasło"
+     And klika przycisk "Zaloguj"
+Then użytkownik jest zalogowany
+     And strona konta użytkownika jest widoczna
