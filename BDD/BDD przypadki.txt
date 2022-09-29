@@ -1,0 +1,35 @@
+1
+Feature: logowanie do konta uzytkownika 
+Scenario: użytkownik może zalogować się na sklepie podając prawidlowe dane
+
+Given użytkownik jest na stronie logowania http://www.selectshop.pl/account
+     And posiada zarejestrowane konto
+When użytkownik wypełnia pole "adres e-mail"
+     And wypełnia pole "hasło"
+     And klika przycisk "Zaloguj"
+Then użytkownik jest zalogowany
+     And strona konta użytkownika jest widoczna
+
+
+2
+Feature: logowanie do konta uzytkownika bez wypełnionych pól
+Scenario: użytkownik nie może zalogować się na sklepie nie wypełniając pól
+
+Given użytkownik jest na stronie logowania http://www.selectshop.pl/account
+     And posiada zarejestrowane konto
+When użytkownik klika przycisk "Zaloguj"
+Then użytkownik nie jest zalogowany
+     And otrzymuje komunikat "Adres email jest wymagany" oraz "Proszę podać hasło"
+
+
+3
+Feature: logowanie do konta uzytkownika ze znakiem specjalnym
+Scenario: użytkownik nie może zalogować się na sklepie wpisując znak specjalny
+
+Given użytkownik jest na stronie logowania http://www.selectshop.pl/account
+     And posiada zarejestrowane konto
+When użytkownik wypełnia pole "adres e-mail"
+     And wypełnia pole "hasło" używając spacji
+     And klika przycisk "Zaloguj"
+Then użytkownik nie jest zalogowany
+     And otrzymuje komunikat "Podany email albo hasło są błędne"
